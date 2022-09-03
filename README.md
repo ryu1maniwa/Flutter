@@ -50,8 +50,28 @@ git push origin master
     - remove：機能(またはファイル)削除
     - move：ファイル移動
 - メッセージの例
-```
+```bash
 [add] 新規ファイルを追加
 
 テストファイル[test1.txt]と[test2.txt]を追加
 ```
+
+## Android Studio
+### 参考サイト
+- [Flutter Beginners Hands-on -環境構築](https://zenn.dev/takumma/books/flutter-beginners-hands-on/viewer/setup)
+- Android Studioの環境構築の途中でちょっとハマったけど下のサイトを見て解決
+- [flutterの環境構築しようとしたらハマった話](https://qiita.com/pe-ta/items/e5a1813b21de8d446407)
+[仮想デバイスを作成して管理する](https://developer.android.com/studio/run/managing-avds?hl=ja#createavd)
+[Flutter環境構築（Windows） 後編 - エミュレータ作成と実行](https://blog.css-net.co.jp/entry/2022/06/06/112045)
+
+### AVD(エミュレータ)の作成
+- Android Virtual Device
+- [View] > [Tool Windows] > [Device Manager] 
+- ハードウェアを選択 Pixel5
+- システムイメージを選択してダウンロード x86のやつがいいらしい R
+- [View] > [Tool Windows] > [Device Manager] からEmulatorの起動
+### VSCodeでアプリの実行
+- VSCodeで「Ctrl + Shift + p」でコマンドパレットを開き、「flutter」と検索
+- Flutter: New Project」をクリックし、プロジェクトを作成
+- 右下のdeviceがエミュレータになっていることを確認
+- 右上の実行マークをクリックすると、 Emulator でアプリが起動
