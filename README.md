@@ -61,8 +61,8 @@ git push origin master
 - [Flutter Beginners Hands-on -環境構築](https://zenn.dev/takumma/books/flutter-beginners-hands-on/viewer/setup)
 - Android Studioの環境構築の途中でちょっとハマったけど下のサイトを見て解決
 - [flutterの環境構築しようとしたらハマった話](https://qiita.com/pe-ta/items/e5a1813b21de8d446407)
-[仮想デバイスを作成して管理する](https://developer.android.com/studio/run/managing-avds?hl=ja#createavd)
-[Flutter環境構築（Windows） 後編 - エミュレータ作成と実行](https://blog.css-net.co.jp/entry/2022/06/06/112045)
+- [仮想デバイスを作成して管理する](https://developer.android.com/studio/run/managing-avds?hl=ja#createavd)
+- [Flutter環境構築（Windows） 後編 - エミュレータ作成と実行](https://blog.css-net.co.jp/entry/2022/06/06/112045)
 
 ### AVD(エミュレータ)の作成
 - Android Virtual Device
