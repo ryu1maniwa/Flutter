@@ -4,7 +4,6 @@ import 'schedule_page.dart';
 import 'vehicle_registration_page.dart';
 import 'evaluation_page.dart';
 import 'applicant_list_page.dart';
-// import 'package:image_picker/image_picker.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key, required this.title});
